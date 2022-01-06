@@ -19,7 +19,7 @@ import fistclassifier as fclasifier
 
 
 
-CAM_DEVICE_INDEX=0 #index of camera device
+CAM_DEVICE_INDEX=-1 #index of camera device
 PRE_RESOLUTION=(180,320) #desired resolution for capturing video (may differ from real resolution of camera)
 DETECT_THRESH=0.5 #minimum score for detecting hand directly (high confidence detection)
 DRAWING_COLOR=(0,0,255) #color of drawing
